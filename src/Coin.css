@@ -14,13 +14,15 @@
     border-bottom: .2em solid #63CCCA;
     width: 50em;
     font-family: 'Antonio', sans-serif;
-    font-weight: 1000;
-    color:#35393C;
-    background-color: #42858C;
+    font-weight: 100;
+    color:#EFD9CE;
+    background-color: #32908F;
     border-radius: 5px;
     margin-bottom: .5em;
-    box-shadow: .3em 0em .5em rgb(64, 124, 255)
     
+}
+.coin-row:hover {
+    box-shadow: 0.3em 0.3em 0.5em #26C485;
 }
 
 .coin {
@@ -41,6 +43,7 @@
     width: 2em;
     margin-right: .5em;
     margin-left: .5em;
+    background-color: #EFD9CE;
 }
 .coin-symbol {
     text-transform: uppercase;

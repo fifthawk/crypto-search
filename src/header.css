@@ -7,19 +7,19 @@
     justify-content: center;
     align-items: center;
     font-size: 3em;
-    background-color: #35393C;
-    border: .05em solid #989fce;
+    background-color: #2B2D42;
+    border: .05em solid #EFD9CE;
     width: 9em;
     border-radius: 15px;
     font-family: 'Antonio', sans-serif;
-    color: #5DA399;
+    color: #D5CFE1;
     margin: auto;
     height: 4em;
 }
 
 .header-container:hover {
-    background-color: #5DA399;
-    color:  #35393C;
+    background-color: #D5CFE1;
+    color:  #2B2D42;
 }
 
 .nav-container {
@@ -47,8 +47,6 @@ a {
     margin: auto;
     padding-right: .225em;
     padding-left: .225em;
-    
-
 }
 img {
     border-radius: 50%;
