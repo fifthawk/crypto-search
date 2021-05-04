@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Antonio:wght@100&display=swap');
+
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background-color: #35393C;
+    border: .05em solid #989fce;
+    width: 9em;
+    border-radius: 15px;
+    font-family: 'Antonio', sans-serif;
+    color: #5DA399;
+    margin: auto;
+    height: 4em;
+}
+
+.header-container:hover {
+    background-color: #5DA399;
+    color:  #35393C;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px .8em rgb(212, 201, 93);
+    width: 50%;
+    margin: 1em auto 1em auto;
+    border-radius: 3em;
+    
+    
+}
+.nav-container lo {
+    padding: .5em;
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.5em;
+}
+
+a {
+    color:#42858C;
+    
+}
+.img-container{
+    margin: auto;
+    padding-right: .225em;
+    padding-left: .225em;
+    
+
+}
+img {
+    border-radius: 50%;
+    box-shadow: 0px 0px .3em #5DA399;
+    height: 3em;
+    width: 2.75em;
+    
+}
+
+img:hover {
+    box-shadow: 0px 0px 1.5em #35393C;
+}
+
+
+h4 {
+    padding-left: .3em
+}
+
+.animate__animated.animate__backInRight{
+    --animate-duration: 2s;
+    --animate-delay: 1s
+}
+
+
